@@ -55,6 +55,7 @@ public class ICCardSwipePresenter extends BasePresenter {
      * 开启刷卡器
      */
     public void startSwish() {
+
         executor.execute(() ->IccUtils.getInstance().checkIccCard(promptHandler, SwishCardApplication.getInstance().getD2000Icc()));
     }
 

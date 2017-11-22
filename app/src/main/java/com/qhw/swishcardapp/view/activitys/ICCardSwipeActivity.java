@@ -40,6 +40,7 @@ public class ICCardSwipeActivity extends BaseActivity implements NoneValueOperat
     private Boolean exit = false;
     private ICCardSwipePresenter icCardSwipePresenter;
     private String type;
+
     private Handler promptHandler = new Handler() {
 
         @Override
